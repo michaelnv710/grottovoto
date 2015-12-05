@@ -1,0 +1,13 @@
+.navbar-brand img {
+	width: 20px;
+	height: 20px;
+	display: inline;
+}
+.navbar>.container .navbar-brand:last-child {
+	margin-left: -15px;
+}
+/* header "active" classes */
+#missions #missions-a, #paraphernalia #paraphernalia-a, #culture #culture-a, #about #about-a, #contact #contact-a, #newsletter #newsletter-a {
+	color: #555;
+    background-color: #e7e7e7;
+}
