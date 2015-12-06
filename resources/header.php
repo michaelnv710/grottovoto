@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/">
-        <img alt="Brand" src="../filler/bootstrap-logo.png">
+        <img alt="Brand" src="../resources/bootstrap-logo.png">
       </a>
       <a class="navbar-brand" href="/">
         Grotto Voto

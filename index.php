@@ -1,10 +1,9 @@
 <html lang="en">
-  <head>
-    <?php require('php/head.php');?>
+    <?php require('resources/head.php');?>
     <title>Grotto Voto</title>
   </head>
   <body>
-    require-header
+  <?php require('resources/header.php');?>
     <div class="jumbotron">
       <div class="container">
         <h1>Tunnels, Caves, and Ruins</h1>
@@ -75,6 +74,6 @@
       </div>
       <button type="button" class="btn btn-default pull-right">See All</button>
     </div>
-    <?php require('php/footer.php');?>
+    <?php require('resources/footer.php');?>
   </body>
 </html>
