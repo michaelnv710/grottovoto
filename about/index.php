@@ -1,10 +1,10 @@
 <html lang="en">
   <head>
-    <?php require('../php/head.php');?>
+    <?php require('../resources/head.php');?>
     <title>About - Grotto Voto</title>
   </head>
   <body id="about">
-    <?php require('../php/header.php');?>  
+    <?php require('../resources/header.php');?>  
     <div class="container">
       <h1>About</h1>
       <h2>The Story of Grotto Voto</h2>
@@ -14,6 +14,6 @@
       <h2>Web Technologies</h2>
       <p>html5, css3, js, bootstrap, fontawesome, namecheap</p>
     </div>
-    <?php require('../php/footer.php');?>
+    <?php require('../resources/footer.php');?>
   </body>
 </html>

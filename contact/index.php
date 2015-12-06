@@ -1,10 +1,9 @@
 <html lang="en">
-  <head>
-    <?php require('../php/head.php');?>
+    <?php require('../resources/head.php');?>
     <title>Contact - Grotto Voto</title>
   </head>
   <body id="contact">
-    <?php require('../php/header.php');?>  
+    <?php require('../resources/header.php');?>  
     <div class="container">
       <h1>Contact</h1>
       <p>You might want to let us know you like our stuff, or that you hate it, or something else. Whatever it is, if you want to tell us something:</p>
@@ -26,6 +25,6 @@
         <button type="submit" class="btn btn-default">Submit</button>
       </form>
     </div>
-    <?php require('../php/footer.php');?>
+    <?php require('../resources/footer.php');?>
   </body>
 </html>
