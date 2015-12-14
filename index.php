@@ -6,9 +6,8 @@
   <?php require('resources/header.php');?>
     <div class="jumbotron">
       <div class="container">
-        <h1>Tunnels, Caves, and Ruins</h1>
-        <p>That's what we're all about here</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn More</a></p>
+        <h1 id="tagline">Tunnels, Caves, and Ruins</h1>
+        <p id="subtagline">That's what we're all about here</p>
       </div>
     </div>
     <div class="container">

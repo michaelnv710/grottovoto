@@ -4,16 +4,11 @@
   </head>
   <body id="missions">
     <?php require('../resources/header.php');?>
-    <b>Todo</b>
-      <ul>
-        <li>add an image for each one of these</li>
-        <li>maybe show stats for each like year built...</li>
-        <li>update the descriptions to be consistent and fucking you know</li>
-        <li>figure out format of this stuff like links</li>
-      </ul>
+    
     <div class="container">
       <h1>Missions</h1>
       <p>These are (almost) all of the adventures that I have been on. They're categorized by the type of feature that they are. Stay on the look out for updates!</p>
+      <a href="sample">Sample</a>
         <h2>Drainage Tunnels</h2>
         <p>or just drains</p>
           <h3>West Kitsondale Drain</h3>

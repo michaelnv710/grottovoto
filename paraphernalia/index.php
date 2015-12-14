@@ -7,7 +7,9 @@
     <?php require('../resources/header.php');?>  
     <div class="container">
       <h1>Paraphernalia</h1>
-      <p>sign up for this shit</p>
+      <h2>DIY Do It Yourself</h2>
+      <h2>Resources</h2>
+      <a href="http://urbex-gear.com/">Urbex Gear</a>
     </div>
     <?php require('../resources/footer.php');?>
   </body>
