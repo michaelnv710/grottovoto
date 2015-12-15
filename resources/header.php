@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default navbar-inverse">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -19,7 +19,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="/missions" id="missions-a">Missions</a></li>
+        <li><a href="/adventures" id="adventures-a">Adventures</a></li>
         <li><a href="/paraphernalia" id="paraphernalia-a">Paraphernalia</a></li>
         <li><a href="/culture" id="culture-a">Culture</a></li>
         <li><a href="/search" id="search-a"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>

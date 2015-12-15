@@ -4,12 +4,17 @@
   </head>
   <body id="contact">
     <?php require('../resources/header.php');?>  
+    <div class="jumbotron">
+      <div class="container">
+        <h1 id="tagline">Contact</h1>
+        <p id="subtagline">a meeting, communication, or relationship with someone</p>
+      </div>
+    </div>
     <div class="container">
-      <h1>Contact</h1>
       <ul>
-        <li>Email us at contact@grottovoto.com</li>
+        <li>email us at contact@grottovoto.com</li>
         <li>find us on social media (lower right)</li>
-        <li>fill out the form below</li>
+        <li>or fill out the form below</li>
       </ul>
       <form>
         <div class="form-group">
