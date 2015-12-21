@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/">
-        <img alt="Brand" src="../resources/bootstrap-logo.png">
+        <img alt="Brand" src="../resources/logo.svg">
       </a>
       <a class="navbar-brand" href="/">
         Grotto Voto
@@ -22,7 +22,6 @@
         <li><a href="/adventures" id="adventures-a">Adventures</a></li>
         <li><a href="/paraphernalia" id="paraphernalia-a">Paraphernalia</a></li>
         <li><a href="/culture" id="culture-a">Culture</a></li>
-        <li><a href="/search" id="search-a"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
