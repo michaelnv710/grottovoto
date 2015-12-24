@@ -21,17 +21,17 @@
             <p>We do this for the fun and adventure, not profit. I don't think many people set out exploring in search of loot, so most theft that results is probably simply of opportunity. Whatsoever, it's unacceptable. We don't want people stealing our stuff, so we don't steal theirs. If you still feel inclined to take what isn't yours, let me mention that robbery is much worse than trespassing should you be caught.</p>
             <h3>Leave Only Footprints</h3>
             <p>The two phrases are seperated to emphasize that you don't need to <em>take</em> something from a site to degrade it. Some of the nefarious tomfoolery includes breaking and entering, vandalism, graffiti, municipal and bodily dumping, arsen, et cetera. You get the idea, just respect urban environments with the same respect as other natural environments like the forest.</p>
+            <h3>Couth</h3>
+            <p>Our ethics didn't feel complete without this one. Just don't be stupid, have some courtesy, and have some fun. <a href="http://www.actionsquad.org/Greg-Brick-Subterranean-Twin-Cities.htm">Don't be a brick</a> and lock up entrances or steal stories. Please don't add to the list of utterly retarded graffiti that we find a lot of (link).</p>
             <h2>Politics</h2>
-            <img src="../resources/UEisNotaCrime.jpg" class="img-responsive">
             <h3>Autonomy</h3>
             <p>The security cameras don't actually have to be operational for the people to act like they are being watched. Look at alcohol and tobacco, some of the worst things for you and they're sold at the store. You could kill yourself so easily with those things, and yet no one wants them illegal.</p>
             <h3>Minnesota Statutes</h3>
             <h4><a href="https://www.revisor.mn.gov/statutes/?id=609.605">609.605 Trespass</a></h4>
             <h4><a href="https://www.revisor.mn.gov/statutes/?id=609.6055">609.6055 Trespass on Criical Public Service Facility</a></h4>
-            <h3>The Value of Trespass</h3>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/f__NmDcLMKA" frameborder="0" allowfullscreen></iframe>
-            </div>
+            <h4><a href="https://www.revisor.mn.gov/statutes/?id=92.70">97B.001 Land Use Trespass</a></h4>
+            <h4><a href="https://www.revisor.mn.gov/statutes/?id=609.153">609.153 Increased Penalties for Certain Misdemeanors</a></h4>
+            <h3><a href="https://www.youtube.com/f__NmDcLMKA"> The Value of Trespass</a></h3>
             <h2>History</h2>
             <h3>Urban Exploration</h3>
             <h3>Cave Exploration</h3>

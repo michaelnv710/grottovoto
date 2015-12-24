@@ -3,11 +3,11 @@
     <title>Contact - Grotto Voto</title>
   </head>
   <body id="contact">
-    <?php require('../resources/header.php');?>  
+    <?php require('../resources/header.php');?>
     <div class="jumbotron">
       <div class="container">
         <h1 id="tagline">Contact</h1>
-        <p id="subtagline">a meeting, communication, or relationship with someone</p>
+        <p id="subtagline">meeting, communication, or a relationship with someone</p>
       </div>
     </div>
     <div class="container">

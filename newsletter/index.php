@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="container">
-      <p>This is mainly for those of you who don't want to follow us on social media or don't use it. Get on this list and we'll send you occasional updates about what's happening at Grotto Voto. Sometimes it may go a few weeks between letters, other times it might pick up to every couple of days. You can also view all of our past newsletters here as well.</p>
+      <p>This is mainly for those of you who don't use social media or just don't want to follow us on it, because there'll be much more frequent updates on there than in here. Get yourself on this list and we'll send you something every once in a while about what's happening here at Grotto Voto. It could go a few weeks between letters or pick up to every couple of days at times, like weather. You can view all of our past newsletters here as well. Just to let you know, we won't do anything sketchy with your email like... who knows what.</p>
       <h2>Sign Up</h2>
         <form>
           <div class="form-group">

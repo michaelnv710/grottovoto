@@ -7,7 +7,7 @@
     <div class="jumbotron">
       <div class="container">
         <h1 id="tagline">Adventures</h1>
-        <p id="subtagline">an unusual and exciting, typically hazardous, experience or activity</p>
+        <p id="subtagline">unusual and exciting, typically hazardous experiences or activities</p>
       </div>
     </div>
     <div class="container">

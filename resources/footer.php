@@ -1,4 +1,4 @@
-<nav class="navbar-default navbar-bottom navbar-inverse">
+<nav class="navbar navbar-default navbar-bottom navbar-inverse">
   	<div class="container">
  		<ul class="nav navbar-nav">
        		<li><a href="/about" id="about-a">About</a></li>

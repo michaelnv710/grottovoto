@@ -1,7 +1,7 @@
 body {
 	color: #9D9D9D !important;
 	background-color: #000000 !important;
-	font-size: 16px;
+	/*font-size: 16px;*/
 }
 a {
 	color: #CC85AC;
@@ -9,44 +9,18 @@ a {
 .jumbotron {
 	background-color: #222;
 }
-.navbar-brand img {
-	width: 40px;
+#logo {
 	height: 40px;
-	display: inline;
-	margin: 0;
+	margin-right: 10px;
 	position: relative;
-	background-color: white;
-	vertical-align: middle;
 	top: -10px;
-}
-.navber {
-}
-.navbar-brand {
-	margin-left: 0;
-	display: inline-block;
-	font-size: 20px
-}
-.nav.navbar-nav li:last-child a {
-	padding-right: 0;
-}
-.nav.navbar-nav li:first-child a {
-	padding-left: 0;
 }
 .navbar-bottom {
 	margin-top: 20px;
 }
-.navbar-nav > li > a {
-}
-
-@media (max-width: 767px) {
-    .navbar-nav > li > a {
-}
 .form-control {
 	background-color: #222;
 	border-color: #333;
-}
-.navbar>.container .navbar-brand:last-child {
-	margin-left: -15px;
 }
 /* header "active" classes */
 #adventures #adventures-a, #paraphernalia #paraphernalia-a, #culture #culture-a, #about #about-a, #contact #contact-a, #newsletter #newsletter-a {

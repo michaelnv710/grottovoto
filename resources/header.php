@@ -9,9 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/">
-        <img alt="Brand" src="../resources/logo.svg">
-      </a>
-      <a class="navbar-brand" href="/">
+        <img id="logo" alt="Brand" src="../resources/logo copy 2.svg" class="pull-left">
         Grotto Voto
       </a>
     </div>

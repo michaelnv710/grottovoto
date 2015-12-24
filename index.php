@@ -12,7 +12,10 @@
         </div>
         <div class="container">
             <div class="embed-responsive embed-responsive-16by9">
-                <iframe width="420" height="315" src="https://www.youtube.com/embed/xjz49xJ_ASE" frameborder="0" allowfullscreen></iframe>            </div>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/xjz49xJ_ASE" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <a href="/culture"><h2>Culture</h2>
+            <img src="../resources/UEisNotaCrime.jpg" class="img-responsive"></a>
             <h2>Recent Adventures</h2>
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
