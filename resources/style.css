@@ -10,13 +10,18 @@ a {
 	background-color: #222;
 }
 #logo {
-	height: 40px;
+	height: 30px;
 	margin-right: 10px;
 	position: relative;
-	top: -10px;
+	top: -5px;
 }
 .navbar-bottom {
 	margin-top: 20px;
+}
+.navbar {
+	margin-bottom:0;
+	border: none;
+	background-color: black;
 }
 .form-control {
 	background-color: #222;
@@ -24,5 +29,5 @@ a {
 }
 /* header "active" classes */
 #adventures #adventures-a, #paraphernalia #paraphernalia-a, #culture #culture-a, #about #about-a, #contact #contact-a, #newsletter #newsletter-a {
-    background-color: black;
+    background-color: #222;
 }

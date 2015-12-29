@@ -25,12 +25,20 @@
             <p>Our ethics didn't feel complete without this one. Just don't be stupid, have some courtesy, and have some fun. <a href="http://www.actionsquad.org/Greg-Brick-Subterranean-Twin-Cities.htm">Don't be a brick</a> and lock up entrances or steal stories. Please don't add to the list of utterly retarded graffiti that we find a lot of (link).</p>
             <h2>Politics</h2>
             <h3>Autonomy</h3>
-            <p>The security cameras don't actually have to be operational for the people to act like they are being watched. Look at alcohol and tobacco, some of the worst things for you and they're sold at the store. You could kill yourself so easily with those things, and yet no one wants them illegal.</p>
+            <p>The security cameras don't actually have to be operational for the people to act like they are being watched. Look at alcohol and tobacco, some of the worst things for you and they're sold at the store. You could kill yourself so easily with those things, and yet no one wants them illegal. We could all jam forks in our eyeballs and that's not illegal. Yet, the counter arguement is that nobody is really trying to jam forks or jump off bridges for pleasure, and those aren't even really the same to compare. Maybe you shouldn't make an areguement for opening up public spaces because really it's all like drains and caves but still talk a little about the autonomy idea.</p>
             <h3>Minnesota Statutes</h3>
+            <p>get the one about hunting dogs, and</p>
             <h4><a href="https://www.revisor.mn.gov/statutes/?id=609.605">609.605 Trespass</a></h4>
+            <p>Goes over the basics, it's pretty self-explanatory.</p>
             <h4><a href="https://www.revisor.mn.gov/statutes/?id=609.6055">609.6055 Trespass on Criical Public Service Facility</a></h4>
-            <h4><a href="https://www.revisor.mn.gov/statutes/?id=92.70">97B.001 Land Use Trespass</a></h4>
+            <p>This protects quite a lot of facilites, it mainly applies to drains and bridges for us though. Note the differences between aboveground and underground misdemeanors. Above, you can legally leave when asked to, unless signs are posted or if they've already asked you to leave in the last six months. But below, it's automatically a misdemeanor even without postings. Also, employees of the facility can detain you (link to Ford kidnapping) with reasonable cause, and you can be arrested on probably cause of violation in the preceding four hours.</p>
+            <h4><a href="https://www.revisor.mn.gov/statutes/?id=97A.315">97A.315 Trespass</a></h4>
+            <p>If you knowingly disregard a sign, a personally notification, or commit three misdmemeanors in one year, they turn gross.</p>
+            <h4><a href="https://www.revisor.mn.gov/statutes/?id=92.70">92.70 Land Use Trespass</a></h4>
+            <p>Basically just adds responsibility to pay two or three times any damages, if you're into that.</p>
+            <h4><a href="https://www.revisor.mn.gov/statutes/?id=97b.001">97B.001 Trespass</a></h4>
             <h4><a href="https://www.revisor.mn.gov/statutes/?id=609.153">609.153 Increased Penalties for Certain Misdemeanors</a></h4>
+            <p>You can get searched, like you didn't know that. Three strikes and you get gross misdemeanors too.</p>
             <h3><a href="https://www.youtube.com/f__NmDcLMKA"> The Value of Trespass</a></h3>
             <h2>History</h2>
             <h3>Urban Exploration</h3>
@@ -41,7 +49,7 @@
             <h3><a href="http://www.actionsquad.org/ramble01.html"><em>The Past, Present, and Future of Urban Exploration</em></a></h3>
             <p>by Max Action of Action Squad</p>
             <h3><a href="http://www.mnhs.org/">Minnesota Historical Society</a></h3>
-            <h2>More Resources</h2>
+            <h2>Resources</h2>
             <p>If anything couldn't fit in above, it's down here.</p>
             <h3>Minnesota Explorers</h3>
             <h4><a href="http://www.actionsquad.org">Action Squad</a></h4>

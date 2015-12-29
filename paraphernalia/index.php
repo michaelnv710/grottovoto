@@ -12,9 +12,7 @@
         </div>
       </div>
     <div class="container">
-      <p>You could probably go exploring naked with nothing, but you're probably going to want some gear to make things a little easier. This is where you can find all sorts of information about the things to take urban exploring.</p>
       <h2>General</h2>
-      <p>start with the basics and the minimum</p>
         <h3>Friends</h3>
         <p>it's better and safer maybe it should be under safety</p>
         <h3>Footwear</h3>
