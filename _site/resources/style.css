@@ -3,10 +3,10 @@
 	border: none;
 }
 /* header "active" classes */
-#adventure #adventure-a, #paraphernalia #paraphernalia-a, #culture #culture-a, #about #about-a, #contact #contact-a, #newsletter #newsletter-a {
+#Adventure #adventure-a, #Paraphernalia #paraphernalia-a, #Culture #culture-a, #About #about-a, #Contact #contact-a, #Newsletter #newsletter-a {
     background-color: #000;
 }
-#adventure #adventure-a:hover, #paraphernalia #paraphernalia-a:hover, #culture #culture-a:hover, #about #about-a:hover, #contact #contact-a:hover, #newsletter #newsletter-a:hover {
+#Adventure #adventure-a:hover, #Paraphernalia #paraphernalia-a:hover, #Culture #culture-a:hover, #About #about-a:hover, #Contact #contact-a:hover, #Newsletter #newsletter-a:hover {
     color: 9D9D9D;
 }
 #facebook:hover i {
@@ -25,11 +25,66 @@
 	float: left;
 }
 #icons li a {
-	padding: 17px 15px;
+	padding: 14px 15px;
 }
 .navbar-collapse {
 	border-top: none;
   	-webkit-box-shadow: none;
   	box-shadow: none;
   	-webkit-overflow-scrolling: touch;
+}
+.iframe {
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#logo {
+	height: 96px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+#social {
+	position: absolute;
+	bottom: 0;
+	padding: 16px;
+}
+#social:focus {
+	font-weight: normal;
+	outline: none !important;
+}
+#social a {
+	color: rgba(0, 0, 0, 0.87);
+	font-size: 24px;
+	margin-right: 12px;
+}
+.img--center {
+	display: block;
+	margin: 0 auto;
+}
+.paper-item-link {
+    color: inherit;
+    text-decoration: none;
+}
+paper-toolbar.tall .title {
+    font-size: 40px !important;
+    margin: 0 !important;
+    text-align: center;
+}
+drawer {
+	box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.15);
+}
+.container {
+	padding: 16px;
 }

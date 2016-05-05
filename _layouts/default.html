@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html class="bg--dark-gray">
   {% include head.html %}
   <body id="{{page.title}}">
-    {% include header.html %}   
-    {{ content }}
-    {% include footer.html %}
+    {% include header.html %}
+	{{ content }}
+		</article>
+	  </paper-scroll-header-panel>
+	</paper-drawer-panel>
+	{% include footer.html %}
   </body>
 </html>

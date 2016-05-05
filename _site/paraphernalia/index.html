@@ -1,56 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html class="bg--dark-gray">
   <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 	<title>Paraphernalia - Grotto Voto</title>
 	<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="canonical" href="http://yourdomain.com/paraphernalia/">
 	<link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml">
-	<link href="/resources/bootstrap/bootstrap.min.css" rel="stylesheet">
 	<link href="/resources/style.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="/resources/bootstrap/bootstrap.min.js"></script>
+
+	<script src="/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+	<link rel="import" href="/bower_components/paper-toolbar/paper-toolbar.html">
+	<link rel="import" href="/bower_components/paper-scroll-header-panel/paper-scroll-header-panel.html">
+	<link rel="import" href="/bower_components/paper-header-panel/paper-header-panel.html">
+    <link rel="import" href="/bower_components/paper-drawer-panel/paper-drawer-panel.html">
+    <link rel="import" href="/bower_components/paper-icon-button/paper-icon-button.html">
+    <link rel="import" href="/bower_components/paper-listbox/paper-listbox.html">
+    <link rel="import" href="/bower_components/paper-item/paper-item.html">
+    <link rel="import" href="/bower_components/paper-item/paper-icon-item.html">
+    <link rel="import" href="/bower_components/paper-material/paper-material.html">
+    <link rel="import" href="/bower_components/paper-button/paper-button.html">
+    <link rel="import" href="/bower_components/paper-styles/color.html">
+    <link rel="import" href="/bower_components/paper-styles/typography.html">
+    <link rel="import" href="/bower_components/paper-styles/paper-styles-classes.html">
+    <link rel="import" href="/bower_components/paper-styles/classes/global.html">
+    <link rel="import" href="/bower_components/paper-styles/default-theme.html">
+    <link rel="import" href="/bower_components/paper-input/paper-input.html">
+    <link rel="import" href="/bower_components/paper-input/paper-input-error.html">
+    <link rel="import" href="/bower_components/paper-input/paper-input-container.html">
+    <link rel="import" href="/bower_components/paper-input/paper-input-behavior.html">
+    <link rel="import" href="/bower_components/paper-input/paper-textarea.html">
+    <link rel="import" href="/bower_components/iron-input/iron-input.html">
+    <link rel="import" href="/bower_components/iron-icon/iron-icon.html">
+    <link rel="import" href="/bower_components/iron-icons/iron-icons.html">
+    <link rel="import" href="/bower_components/iron-flex-layout/iron-flex-layout-classes.html">
 </head>
 
-  <body id="Paraphernalia">
-    <nav class="navbar navbar-default navbar-inverse">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="/">
-        <img class="img-responsive" id="logo" alt="Brand" src="/resources/images/logo.svg" class="pull-left">
-      </a>
-    </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="/adventure" id="adventure-a">Adventure</a></li>
-        <li><a href="/paraphernalia" id="paraphernalia-a">Paraphernalia</a></li>
-        <li><a href="/culture" id="culture-a">Culture</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>   
-      <div class="jumbotron">
-    <div class="container">
-      <h1 id="tagline">Paraphernalia</h1>
-      <p id="subtagline">miscellaneous articles, especially the equipment needed for a particular activiy</p>
-    </div>
+  <body id="Paraphernalia">
+    <!--
+<div class="p1 bg--light-gray">
+  <a href="/" class="flt--left">
+    <img class="mx1" id="logo" src="/resources/images/logo.svg"/>
+    <div class="clearfix"></div>
+  </a>
+  <div class="flt--right">
+    <a class="btn--link" href="/adventure">Adventure</a>
+    <a class="btn--link" href="/paraphernalia">Paraphernalia</a>
+    <a class="btn--link" href="/culture">Culture</a>
   </div>
-  <div class="container">
-    <h2><i class="fa fa-medkit"></i> Safety</h2>
+  <div class="clearfix"></div>
+</div>
+-->
+<paper-drawer-panel>
+  <paper-header-panel drawer mode="seemed" class="shadow-elevation-8dp">
+    <paper-toolbar class="tall">
+      <a href="/" class="middle"><img id="logo" src="/resources/images/logo.svg"/></a>
+    </paper-toolbar>
+    <paper-listbox>
+      <a class="paper-item-link" href="/adventure" tabindex="-1">
+        <paper-item>Adventure</paper-item>
+      </a>
+      <a class="paper-item-link" href="/paraphernalia" tabindex="-1">
+        <paper-item>Paraphernalia</paper-item>
+      </a>
+      <a class="paper-item-link" href="/culture" tabindex="-1">
+        <paper-item>Culture</paper-item>
+      </a>
+      <a class="paper-item-link" href="/newsletter" tabindex="-1">
+        <paper-item>Newsletter</paper-item>
+      </a>
+      <a class="paper-item-link" href="/contact" tabindex="-1">
+        <paper-item>Contact</paper-item>
+      </a>
+      <a class="paper-item-link" href="/about" tabindex="-1">
+        <paper-item>About</paper-item>
+      </a>
+      <div id="social">
+        <a id="facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a id="twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a> 
+        <a id="googleplus" href="#" target="_blank"><i class="fa fa-google-plus"></i></a> 
+        <a id="youtube" href="" target="_blank"><i class="fa fa-youtube-play"></i></a> 
+        <a id="flickr" href="" target="_blank"><i class="fa fa-flickr"></i></a>
+      </div>
+    </paper-listbox>
+  </paper-header-panel>
+  <paper-scroll-header-panel main condenses>
+    <paper-toolbar class="tall shadow-elevation-4dp">
+      <paper-icon-button paper-drawer-toggle icon="menu"></paper-icon-button>
+      <h1 class="bottom title">Paraphernalia</h1>
+    </paper-toolbar>
+    <article>
+
+      <script>
+        // custom transformation: scale header's title
+        var title = document.querySelector('.title');
+        addEventListener('paper-header-transform', function(e) {
+          var d = e.detail;
+          var m = d.height - d.condensedHeight;
+          var scale = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);
+          Polymer.Base.transform('scale(' + scale + ') translateZ(0)', title);
+        });
+      </script>
+	  <div class="container">
+    <h2>Safety</h2>
     <h3>First-Aid Kit</h3>
     <p>Just something basic can be well appreciated if you happen to hurt yourself.</p>
     <h3>Emergency Contact</h3>
@@ -61,7 +118,7 @@
     <p>There are other ways to know if the air has enough oxygen though. Try to light a flame, or see if the air is stale.</p>
     <h3>Sustenance</h3>
     <p>You might wish you had more food or water, but not if you read this.</p>
-    <h2><i class="fa fa-suitcase"></i> Protocol</h2>
+    <h2>Protocol</h2>
     <h3>Friends</h3>
     <p>They're not only for company; it's a lot safer to have atleast two other people with you if one gets hurt, one can leave for help while one stays with the wounded.</p>
     <h3>Footwear</h3>
@@ -72,14 +129,14 @@
     <p>jacket, gloves</p>
     <h3>Luminescence</h3>
     <p>I pretty much always have a flashlight. Even if you're not going underground, most buildings have basements and closets in which it comes in handy.</p>
-    <h2><i class="fa fa-camera"></i> Documentation</h2>
+    <h2>Documentation</h2>
     <h3>Camera</h3>
     <p>If you want to be all camera enthusiastic, go for it. Otherwise your phone can usually suffice, or a cheap action camera.</p>
     <h3>Drone</h3>
     <h3>More Luminescence</h3>
     <p>Double down on the electrons if you want a halfway decent shot in any classic dark underground environment.</p>
     <h3></h3>
-    <h2><i class="fa fa-magic"></i> Art</h2>
+    <h2>Art</h2>
 
     <h3>Distance Measurement</h3>
     <p>A laser rangefinder works, or a tape measure, or hands.</p>
@@ -91,27 +148,25 @@
     <p>You light in on fire and spin it around, while your camera is exposed.</p>
     <h3>Lasers</h3>
     <p>They can look pretty cool.</p>
-    <h2><i class="fa fa-history"></i> Artifacts/Encounters</h2>
+    <h2>Artifacts/Encounters</h2>
     <p>all the shit we found over the years like cats and bats</p>
-    <h2><i class="fa fa-cog fa-spin"></i> Grotto Gear</h2>
+    <h2>Grotto Gear</h2>
   </div>
-    <nav class="navbar navbar-default navbar-bottom navbar-inverse">
-    <div class="container">
-    <ul class="nav navbar-nav">
-          <li><a href="/about" id="about-a">About</a></li>
-          <li><a href="/contact" id="contact-a">Contact</a></li>
-          <li><a href="/newsletter" id="newsletter-a">Newsletter</a></li>
-      </ul>
-    <ul class="nav navbar-nav navbar-right" id="icons">
-          <li><a id="facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-          <li><a id="twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          <li><a id="googleplus" href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-          <li><a id="youtube" href="" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-          <li><a id="flickr" href="" target="_blank"><i class="fa fa-flickr"></i></a></li>
-          <div class="clearfix"></div>
-     </ul>
-
-  </div>
-</nav>
+		</article>
+	  </paper-scroll-header-panel>
+	</paper-drawer-panel>
+	<!--<div class="flt--left">
+  <a id="about-a" class="btn--link" href="/about">About</a>
+  <a id="contact-a" class="btn--link" href="/contact">Contact</a>
+  <a id="newsletter-a" class="btn--link" href="/newsletter">Newsletter</a>
+</div>
+<div class="flt--right">
+  <a id="facebook" href="#" target="_blank"><i class="fa fa-facebook btn--link"></i></a> 
+  <a id="twitter" href="#" target="_blank"><i class="fa fa-twitter btn--link"></i></a> 
+  <a id="googleplus" href="#" target="_blank"><i class="fa fa-google-plus btn--link"></i></a> 
+  <a id="youtube" href="" target="_blank"><i class="fa fa-youtube-play btn--link"></i></a> 
+  <a id="flickr" href="" target="_blank"><i class="fa fa-flickr btn--link"></i></a>
+</div>
+-->
   </body>
 </html>
