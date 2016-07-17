@@ -12,9 +12,10 @@
 	<link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml">
 	<link href="/resources/style.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
 	<script src="/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
 	<link rel="import" href="/bower_components/paper-toolbar/paper-toolbar.html">
+    <link rel="import" href="/bower_components/paper-ripple/paper-ripple.html">
+    <link rel="import" href="/bower_components/paper-card/paper-card.html">
 	<link rel="import" href="/bower_components/paper-scroll-header-panel/paper-scroll-header-panel.html">
 	<link rel="import" href="/bower_components/paper-header-panel/paper-header-panel.html">
     <link rel="import" href="/bower_components/paper-drawer-panel/paper-drawer-panel.html">
@@ -38,109 +39,100 @@
     <link rel="import" href="/bower_components/iron-icon/iron-icon.html">
     <link rel="import" href="/bower_components/iron-icons/iron-icons.html">
     <link rel="import" href="/bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+    <link rel="import" href="/bower_components/google-youtube/google-youtube.html">
+    <link rel="import" href="/bower_components/google-apis/google-youtube-api.html">
 </head>
 
 
   <body id="About">
-    <!--
-<div class="p1 bg--light-gray">
-  <a href="/" class="flt--left">
-    <img class="mx1" id="logo" src="/resources/images/logo.svg"/>
-    <div class="clearfix"></div>
-  </a>
-  <div class="flt--right">
-    <a class="btn--link" href="/adventure">Adventure</a>
-    <a class="btn--link" href="/paraphernalia">Paraphernalia</a>
-    <a class="btn--link" href="/culture">Culture</a>
-  </div>
-  <div class="clearfix"></div>
-</div>
--->
-<paper-drawer-panel>
-  <paper-header-panel drawer mode="seemed" class="shadow-elevation-8dp">
-    <paper-toolbar class="tall">
-      <a href="/" class="middle"><img id="logo" src="/resources/images/logo.svg"/></a>
-    </paper-toolbar>
+    <paper-drawer-panel>
+  <paper-header-panel drawer mode="seemed" atTop="true">
+    <a href="/">
+      <paper-toolbar class="tall">
+        <img src="/resources/images/logo.svg" class="middle" id="logo">
+      </paper-toolbar>
+      <paper-ripple></paper-ripple>
+    </a>
     <paper-listbox>
       <a class="paper-item-link" href="/adventure" tabindex="-1">
-        <paper-item>Adventure</paper-item>
+        <paper-item>Adventure
+          <paper-ripple></paper-ripple>
+        </paper-item>
       </a>
       <a class="paper-item-link" href="/paraphernalia" tabindex="-1">
-        <paper-item>Paraphernalia</paper-item>
+        <paper-item>Paraphernalia
+          <paper-ripple></paper-ripple>
+        </paper-item>
       </a>
       <a class="paper-item-link" href="/culture" tabindex="-1">
-        <paper-item>Culture</paper-item>
-      </a>
-      <a class="paper-item-link" href="/newsletter" tabindex="-1">
-        <paper-item>Newsletter</paper-item>
-      </a>
-      <a class="paper-item-link" href="/contact" tabindex="-1">
-        <paper-item>Contact</paper-item>
+        <paper-item>Culture
+          <paper-ripple></paper-ripple>
+        </paper-item>
       </a>
       <a class="paper-item-link" href="/about" tabindex="-1">
-        <paper-item>About</paper-item>
+        <paper-item>About
+          <paper-ripple></paper-ripple>
+        </paper-item>
       </a>
       <div id="social">
-        <a id="facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-        <a id="twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a> 
-        <a id="googleplus" href="#" target="_blank"><i class="fa fa-google-plus"></i></a> 
-        <a id="youtube" href="" target="_blank"><i class="fa fa-youtube-play"></i></a> 
-        <a id="flickr" href="" target="_blank"><i class="fa fa-flickr"></i></a>
+        <a id="facebook" href="https://www.facebook.com/Grotto-Voto-1734956880057445" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a id="twitter" href="https://www.twitter.com/GrottoVoto" target="_blank"><i class="fa fa-twitter"></i></a> 
+        <a id="googleplus" href="https://plus.google.com/107760894832721284379" target="_blank"><i class="fa fa-google-plus"></i></a> 
+        <a id="youtube" href="https://www.youtube.com/channel/UC0Eg2djbJ1fX_UxUpsoSNvw" target="_blank"><i class="fa fa-youtube-play"></i></a> 
+        <a id="instagram" href="https://www.instagram.com/grottovoto" target="_blank"><i class="fa fa-instagram"></i></a>
       </div>
     </paper-listbox>
   </paper-header-panel>
   <paper-scroll-header-panel main condenses>
-    <paper-toolbar class="tall shadow-elevation-4dp">
+    <paper-toolbar class="tall">
       <paper-icon-button paper-drawer-toggle icon="menu"></paper-icon-button>
       <h1 class="bottom title">About</h1>
     </paper-toolbar>
-    <article>
+    <article class="container">
+      <h2><i class="fa fa-bolt"></i> Conception</h2>
+<p>Basically, the spark to dive deeper into urban exploration came after having an exhilarating time exploring a mill in Minneapolis. We climbed high to the rooftops and got chased out of the dark basement by some maniacal laughing bums (link story). A friend also told be what he heard about "the labyrinth" of utility tunnels underneath downtown St. Paul. So I researched all I could for more sites to check out and discovered the few explorers of the Twin Cities, most notably Action Squad. I was entertained reading their trips and seeing their photos, they'd been in every place I knew of and many more. Something was missing from the urbex scene though, most publications stopped atleast a few years ago and seemed half-finished, like there was more to get around to that never did. I can understand in the 90's that photos were the best medium but now there are cheap videocameras like the Yi or even smartphones that can capture HD footage. Although explorers have always been here and maybe are even increasing recently, I saw the hayday remaining in the time of Action Squad. Nobody had yet matched their unique personality and storytelling.</p>
 
-      <script>
-        // custom transformation: scale header's title
-        var title = document.querySelector('.title');
-        addEventListener('paper-header-transform', function(e) {
-          var d = e.detail;
-          var m = d.height - d.condensedHeight;
-          var scale = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);
-          Polymer.Base.transform('scale(' + scale + ') translateZ(0)', title);
-        });
-      </script>
-	<div class="container">
-  <h2><i class="fa fa-bolt"></i> Conception</h2>
-  <p>I started this site to entertain you with urban exploration, because I thought the world wanted something like it. I had admired <a href="http://www.actionsquad.org">Action Squad</a>'s stories, and other explorers were as exciting to read, but they were mostly that – reading. Media was almost always still photography, and I got the feeling something more could be made from the exotic visuals. Many sites had broken links to other explorers or seemed abandoned too, and even a lof of the best like Action Squad had hung up the coat, so maybe anyways I could reinspire lost enthusiasm with something new.</p>
-  <p>Exploration was always a hobby of mine, probably just like anyone else who shares the curiosity. As a kid, I rode my bike to new reaches, traversed local woods, got into quarries on the weekend. Wilderness became my first choice, but finding new places makes itself increasingly difficult, not to mention all of the space civilization takes up. It's hardly worth it, but one opporunity emerges from this civilization: exploring its abandonments, drainage tunnels</p>
-  <p>My real motives probably seeded way back in the formative years, but I remember it starting in 2014 when a friend mentioned "The Labyrinth" of utility tunnels under downtown St. Paul. I was intrigued and soon discovered <a href="http://www.actionsquad.org">Action Squad</a>'s Urban Exploration from all over the Twin Cities. Reading their stories, I felt like Max Action <a href="http://www.actionsquad.org/sitehistory.htm">when <em>he</em> found</a> other local exploring websites; but he'd been exploring for five years already while I was just about to begin.
-  </p>
-  <p>I would've had to suffice with caves and nature all along if it wasn't for the plot of our planet.</p>
-  <h2><i class="fa fa-cogs"></i> Operation</h2>
-  <p>They said a squirrel could jump tree to tree coast to coast when the Europeans reached North America, now you can do it six ways to sunday on a wheelchair, without touching any earth. Hunting and gethering took estimates of up to 20 hours of labor a week per person, and now our farming makes more food than we would ever need and yet there is an inbalnce of wealth, some are obese while others starve.</p>
-  <p>talk about trees having been replaced by pavement, no more exploration except what's under and around us</p>
-  <p>Max Action articulated well in his essay <a href="http://www.actionsquad.org/ramble01.html">The Past, Present, & Future of Urban Exploration</a></p>
-  <p>Right now I'm exploring and documenting as much as I can here. There are plenty of leads  places to look, I've even been to a few places already, it's just a matter of getting </p>
-  <h2><i class="fa fa-globe"></i> Expansion</h2>
-  <p>In the unforseeable future when I imagine my Twin Cities' adventure will run out, I think I'll expand to new destinations. Filmore County is just over the horizon in Southern Minnesota, where there are many caves. It could lead me to Iowa's caves or perhaps beyond to Mammoth Cave and others in that area. Surely along the way there'll be cities with drains and structures to stumble into as well. Getting under a larger city like Chicago might be interesting. The whole world is beyond, who knows what I'll end up getting into.</p>
-  <h2><i class="fa fa-smile-o"></i> Thanks</h2>
-  <p>Of course everything is intrinsic but I distinctly acknowledge:</p>
-  <ul>
-    <li>you</li>
-    <li>our friends</li>
-    <li>abandoners</li>
-    <li>drain-layers</li>
-    <li>geologic process</li>
-  </ul>
-  <h2><i class="fa fa-gift"></i>  Donate</h2>
-  <p>May as well be enabled if you're so inclined.</p>
-    <form class="" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-      <input type="hidden" name="cmd" value="_s-xclick">
-      <input type="hidden" name="hosted_button_id" value="5G9YKNRRCPH3N">
-      <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
-      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-    </form>
-</div>  
-		</article>
-	  </paper-scroll-header-panel>
-	</paper-drawer-panel>
+<h2><i class="fa fa-cogs"></i> Operation</h2>
+<p>I prefaced the previous with "basically" because there's a lot of other parameters falling into place to make an explorer. Max Action puts it well, "the motivations behind Action Squad are complicated and no doubt the result of seeing 'Goonies' and the Indiana Jones movies too many times at too impressionable of an age". For me it went from following creeks through the woods, biking roads as far as they go, and sneaking through quarries to infiltrating tunnels and old buildings. Though really, anyone with an open mind could find the natural enjoyment from urban exploration. To quote Max again, "creatures were sometimes killed for their curiosity; however, the many that did not die often proved much more adept at locating vital resources for survival than those creatures that allowed their fears to keep them locked into the same safe routines and spaces". So while we're not actually looking for food to survive, urban exploration activates this thrill of ours and we can do it for fun, like cannabinoids activating endocannabinoid receptors.</p>
+<p>There is a great loss we have accrued by paving roads and farms accross the country, and declaring it owned by someone. It was said by the European discoverers of this continent that a squirrel could jump tree to tree and make it from one coast to the other. That was the stuff of original exploration, who needs progress when you have wilderness like that? Alas, with the world charted, ironically the very force that eliminated exploration has brought back another opportunity for it with derelict abandonments, highrise rooftops, and massive stormwater drains... cue explorers.</p>
+
+<h2><i class="fa fa-globe"></i> Expansion</h2>
+<p>In the unforseeable future when I imagine my Twin Cities' adventure will run out, I'll have to expand to new destinations for my exploration fix. Right now I'm just sitting on the queue of exploring sites that I've amassed, slowly working through them. Filmore County holds many caves just over the horizon in Southern Minnesota. It may lead to Iowa's caves or beyond to Mammoth Cave and others around there. There'll always be cities with drains and structures to stumble into as well anyways. Getting under a larger city like Chicago might be interesting. The whole world is beyond, who knows what I'll end up getting into.</p>
+
+<h2><i class="fa fa-smile-o"></i> Thanks</h2>
+<p>Of course here's where I'd say we're all the same and all that but I especially acknowledge:</p>
+<ul>
+  <li>you</li>
+  <li>friends</li>
+  <li>abandoners</li>
+  <li>tunnel diggers</li>
+  <li>geologic processes</li>
+</ul>
+
+<h2><i class="fa fa-gift"></i>  Donate</h2>
+<p>May as well be enabled if you're so inclined.
+<form class="" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+  <input type="hidden" name="cmd" value="_s-xclick">
+  <input type="hidden" name="hosted_button_id" value="5G9YKNRRCPH3N">
+  <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_paynow_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form></p>
+
+<h2><i class="fa fa-envelope"></i> Contact</h2>
+<p>Get a whole of us through social media or send a message to contact@grottovoto.org.</p>
+    </article>
+  </paper-scroll-header-panel>
+</paper-drawer-panel>
+<script>
+  // custom transformation: scale header's title
+  var title = document.querySelector('.title');
+  addEventListener('paper-header-transform', function(e) {
+    var d = e.detail;
+    var m = d.height - d.condensedHeight;
+    var scale = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);
+    Polymer.Base.transform('scale(' + scale + ') translateZ(0)', title);
+  });
+</script>
 	<!--<div class="flt--left">
   <a id="about-a" class="btn--link" href="/about">About</a>
   <a id="contact-a" class="btn--link" href="/contact">Contact</a>

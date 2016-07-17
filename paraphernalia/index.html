@@ -3,24 +3,38 @@ layout: default
 title: Paraphernalia
 ---
   <div class="container">
+  http://webservices.amazon.com/onca/xml?AWSAccessKeyId=AKIAJ7BNJRY5N7DIYV6A&AssociateTag=grovot-20&IdType=ASIN&ItemId=B00LPQUWPG&Operation=ItemLookup&ResponseGroup=Images%2COffers&Service=AWSECommerceService&Timestamp=2016-07-17T21%3A01%3A01.000Z&Signature=S%2FqBdJlxMoZVEA9IffMIkHyeku%2FhC9MM6CwQr57Mfss%3D
+  <script type="text/javascript">
+    var HttpClient = function() {
+    this.get = function(aUrl, aCallback) {
+        var anHttpRequest = new XMLHttpRequest();
+        anHttpRequest.onreadystatechange = function() { 
+            if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
+                aCallback(anHttpRequest.responseText);
+        }
+
+        anHttpRequest.open( "GET", aUrl, true );            
+        anHttpRequest.send( null );
+    }
+    }
+    aClient = new HttpClient();
+    aClient.get('http://webservices.amazon.com/onca/xml?AWSAccessKeyId=AKIAJ7BNJRY5N7DIYV6A&AssociateTag=grovot-20&IdType=ASIN&ItemId=B00LPQUWPG&Operation=ItemLookup&ResponseGroup=Images%2COffers&Service=AWSECommerceService&Timestamp=2016-07-17T21%3A01%3A01.000Z&Signature=S%2FqBdJlxMoZVEA9IffMIkHyeku%2FhC9MM6CwQr57Mfss%3D', function(response) {
+        // do something with response
+    });
+  </script>
+
     <h2>Safety</h2>
-    <h3>First-Aid Kit</h3>
-    <p>Just something basic can be well appreciated if you happen to hurt yourself.</p>
-    <h3>Emergency Contact</h3>
-    <p>Let someone know where to look for you in case you think you could be stranded somehow.</p>
-    <h3>Respirator</h3>
-    <p>Some are more paranoid than others about this.</p>
-    <h3>Oxygen Meter</h3>
+    <h3>First-Aid</h3>
+    <p>Just something basic can be well appreciated if you happen to hurt yourself.<br>https://www.amazon.com/Small-First-Aid-Kit-Piece/dp/B00LPQUWPG/</p>
+    <h3>Respirator / Gas + Oxygen Detector</h3>
+    <p>Some are more paranoid than others about this.<br>https://www.amazon.com/3M-8511-Particulate-Respirator-10-Pack/dp/B0002YKBV2<br>look into what airborne contaminants are present and what types of filters are effective<br>https://www.amazon.com/General-Tools-PNG2000A-Natural-Detector/dp/B001KZH796</p>
     <p>There are other ways to know if the air has enough oxygen though. Try to light a flame, or see if the air is stale.</p>
-    <h3>Sustenance</h3>
-    <p>You might wish you had more food or water, but not if you read this.</p>
-    <h2>Protocol</h2>
     <h3>Friends</h3>
     <p>They're not only for company; it's a lot safer to have atleast two other people with you if one gets hurt, one can leave for help while one stays with the wounded.</p>
-    <h3>Footwear</h3>
+    <p>Let someone know where to look for you in case you think you could be stranded somehow.</p>
+    <h3>Shoes/Gloves</h3>
     <p>Make sure to protect yourself from the ground, these can also keep your feet dry if they have to. Extra socks can come in handy if your primaries get soaked. I don't think there is any health dangers with walking through nasty water, but I'm not sure, you could try to wear crocs or something too instead of rain boots.</p>
     <p>rain boots, fivefinger shoes, crocs</p>
-    <h3>Gloves</h3>
     <p>these just come in handy and protect you</p>
     <p>jacket, gloves</p>
     <h3>Luminescence</h3>

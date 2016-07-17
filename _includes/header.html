@@ -1,64 +1,58 @@
-<!--
-<div class="p1 bg--light-gray">
-  <a href="/" class="flt--left">
-    <img class="mx1" id="logo" src="/resources/images/logo.svg"/>
-    <div class="clearfix"></div>
-  </a>
-  <div class="flt--right">
-    <a class="btn--link" href="/adventure">Adventure</a>
-    <a class="btn--link" href="/paraphernalia">Paraphernalia</a>
-    <a class="btn--link" href="/culture">Culture</a>
-  </div>
-  <div class="clearfix"></div>
-</div>
--->
 <paper-drawer-panel>
-  <paper-header-panel drawer mode="seemed" class="shadow-elevation-8dp">
-    <paper-toolbar class="tall">
-      <a href="/" class="middle"><img id="logo" src="/resources/images/logo.svg"/></a>
-    </paper-toolbar>
+  <paper-header-panel drawer mode="seemed" atTop="true">
+    <a href="/">
+      <paper-toolbar class="tall">
+        <img src="/resources/images/logo.svg" class="middle" id="logo">
+      </paper-toolbar>
+      <paper-ripple></paper-ripple>
+    </a>
     <paper-listbox>
       <a class="paper-item-link" href="/adventure" tabindex="-1">
-        <paper-item>Adventure</paper-item>
+        <paper-item>Adventure
+          <paper-ripple></paper-ripple>
+        </paper-item>
       </a>
       <a class="paper-item-link" href="/paraphernalia" tabindex="-1">
-        <paper-item>Paraphernalia</paper-item>
+        <paper-item>Paraphernalia
+          <paper-ripple></paper-ripple>
+        </paper-item>
       </a>
       <a class="paper-item-link" href="/culture" tabindex="-1">
-        <paper-item>Culture</paper-item>
-      </a>
-      <a class="paper-item-link" href="/newsletter" tabindex="-1">
-        <paper-item>Newsletter</paper-item>
-      </a>
-      <a class="paper-item-link" href="/contact" tabindex="-1">
-        <paper-item>Contact</paper-item>
+        <paper-item>Culture
+          <paper-ripple></paper-ripple>
+        </paper-item>
       </a>
       <a class="paper-item-link" href="/about" tabindex="-1">
-        <paper-item>About</paper-item>
+        <paper-item>About
+          <paper-ripple></paper-ripple>
+        </paper-item>
       </a>
       <div id="social">
-        <a id="facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-        <a id="twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a> 
-        <a id="googleplus" href="#" target="_blank"><i class="fa fa-google-plus"></i></a> 
-        <a id="youtube" href="" target="_blank"><i class="fa fa-youtube-play"></i></a> 
-        <a id="flickr" href="" target="_blank"><i class="fa fa-flickr"></i></a>
+        <a id="facebook" href="https://www.facebook.com/Grotto-Voto-1734956880057445" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a id="twitter" href="https://www.twitter.com/GrottoVoto" target="_blank"><i class="fa fa-twitter"></i></a> 
+        <a id="googleplus" href="https://plus.google.com/107760894832721284379" target="_blank"><i class="fa fa-google-plus"></i></a> 
+        <a id="youtube" href="https://www.youtube.com/channel/UC0Eg2djbJ1fX_UxUpsoSNvw" target="_blank"><i class="fa fa-youtube-play"></i></a> 
+        <a id="instagram" href="https://www.instagram.com/grottovoto" target="_blank"><i class="fa fa-instagram"></i></a>
       </div>
     </paper-listbox>
   </paper-header-panel>
   <paper-scroll-header-panel main condenses>
-    <paper-toolbar class="tall shadow-elevation-4dp">
+    <paper-toolbar class="tall">
       <paper-icon-button paper-drawer-toggle icon="menu"></paper-icon-button>
       <h1 class="bottom title">{{page.title}}</h1>
     </paper-toolbar>
-    <article>
-
-      <script>
-        // custom transformation: scale header's title
-        var title = document.querySelector('.title');
-        addEventListener('paper-header-transform', function(e) {
-          var d = e.detail;
-          var m = d.height - d.condensedHeight;
-          var scale = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);
-          Polymer.Base.transform('scale(' + scale + ') translateZ(0)', title);
-        });
-      </script>
+    <article class="container">
+      {{ content }}
+    </article>
+  </paper-scroll-header-panel>
+</paper-drawer-panel>
+<script>
+  // custom transformation: scale header's title
+  var title = document.querySelector('.title');
+  addEventListener('paper-header-transform', function(e) {
+    var d = e.detail;
+    var m = d.height - d.condensedHeight;
+    var scale = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);
+    Polymer.Base.transform('scale(' + scale + ') translateZ(0)', title);
+  });
+</script>

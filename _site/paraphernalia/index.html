@@ -12,9 +12,10 @@
 	<link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml">
 	<link href="/resources/style.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
 	<script src="/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
 	<link rel="import" href="/bower_components/paper-toolbar/paper-toolbar.html">
+    <link rel="import" href="/bower_components/paper-ripple/paper-ripple.html">
+    <link rel="import" href="/bower_components/paper-card/paper-card.html">
 	<link rel="import" href="/bower_components/paper-scroll-header-panel/paper-scroll-header-panel.html">
 	<link rel="import" href="/bower_components/paper-header-panel/paper-header-panel.html">
     <link rel="import" href="/bower_components/paper-drawer-panel/paper-drawer-panel.html">
@@ -38,93 +39,89 @@
     <link rel="import" href="/bower_components/iron-icon/iron-icon.html">
     <link rel="import" href="/bower_components/iron-icons/iron-icons.html">
     <link rel="import" href="/bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+    <link rel="import" href="/bower_components/google-youtube/google-youtube.html">
+    <link rel="import" href="/bower_components/google-apis/google-youtube-api.html">
 </head>
 
 
   <body id="Paraphernalia">
-    <!--
-<div class="p1 bg--light-gray">
-  <a href="/" class="flt--left">
-    <img class="mx1" id="logo" src="/resources/images/logo.svg"/>
-    <div class="clearfix"></div>
-  </a>
-  <div class="flt--right">
-    <a class="btn--link" href="/adventure">Adventure</a>
-    <a class="btn--link" href="/paraphernalia">Paraphernalia</a>
-    <a class="btn--link" href="/culture">Culture</a>
-  </div>
-  <div class="clearfix"></div>
-</div>
--->
-<paper-drawer-panel>
-  <paper-header-panel drawer mode="seemed" class="shadow-elevation-8dp">
-    <paper-toolbar class="tall">
-      <a href="/" class="middle"><img id="logo" src="/resources/images/logo.svg"/></a>
-    </paper-toolbar>
+    <paper-drawer-panel>
+  <paper-header-panel drawer mode="seemed" atTop="true">
+    <a href="/">
+      <paper-toolbar class="tall">
+        <img src="/resources/images/logo.svg" class="middle" id="logo">
+      </paper-toolbar>
+      <paper-ripple></paper-ripple>
+    </a>
     <paper-listbox>
       <a class="paper-item-link" href="/adventure" tabindex="-1">
-        <paper-item>Adventure</paper-item>
+        <paper-item>Adventure
+          <paper-ripple></paper-ripple>
+        </paper-item>
       </a>
       <a class="paper-item-link" href="/paraphernalia" tabindex="-1">
-        <paper-item>Paraphernalia</paper-item>
+        <paper-item>Paraphernalia
+          <paper-ripple></paper-ripple>
+        </paper-item>
       </a>
       <a class="paper-item-link" href="/culture" tabindex="-1">
-        <paper-item>Culture</paper-item>
-      </a>
-      <a class="paper-item-link" href="/newsletter" tabindex="-1">
-        <paper-item>Newsletter</paper-item>
-      </a>
-      <a class="paper-item-link" href="/contact" tabindex="-1">
-        <paper-item>Contact</paper-item>
+        <paper-item>Culture
+          <paper-ripple></paper-ripple>
+        </paper-item>
       </a>
       <a class="paper-item-link" href="/about" tabindex="-1">
-        <paper-item>About</paper-item>
+        <paper-item>About
+          <paper-ripple></paper-ripple>
+        </paper-item>
       </a>
       <div id="social">
-        <a id="facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-        <a id="twitter" href="#" target="_blank"><i class="fa fa-twitter"></i></a> 
-        <a id="googleplus" href="#" target="_blank"><i class="fa fa-google-plus"></i></a> 
-        <a id="youtube" href="" target="_blank"><i class="fa fa-youtube-play"></i></a> 
-        <a id="flickr" href="" target="_blank"><i class="fa fa-flickr"></i></a>
+        <a id="facebook" href="https://www.facebook.com/Grotto-Voto-1734956880057445" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a id="twitter" href="https://www.twitter.com/GrottoVoto" target="_blank"><i class="fa fa-twitter"></i></a> 
+        <a id="googleplus" href="https://plus.google.com/107760894832721284379" target="_blank"><i class="fa fa-google-plus"></i></a> 
+        <a id="youtube" href="https://www.youtube.com/channel/UC0Eg2djbJ1fX_UxUpsoSNvw" target="_blank"><i class="fa fa-youtube-play"></i></a> 
+        <a id="instagram" href="https://www.instagram.com/grottovoto" target="_blank"><i class="fa fa-instagram"></i></a>
       </div>
     </paper-listbox>
   </paper-header-panel>
   <paper-scroll-header-panel main condenses>
-    <paper-toolbar class="tall shadow-elevation-4dp">
+    <paper-toolbar class="tall">
       <paper-icon-button paper-drawer-toggle icon="menu"></paper-icon-button>
       <h1 class="bottom title">Paraphernalia</h1>
     </paper-toolbar>
-    <article>
+    <article class="container">
+        <div class="container">
+  http://webservices.amazon.com/onca/xml?AWSAccessKeyId=AKIAJ7BNJRY5N7DIYV6A&AssociateTag=grovot-20&IdType=ASIN&ItemId=B00LPQUWPG&Operation=ItemLookup&ResponseGroup=Images%2COffers&Service=AWSECommerceService&Timestamp=2016-07-17T21%3A01%3A01.000Z&Signature=S%2FqBdJlxMoZVEA9IffMIkHyeku%2FhC9MM6CwQr57Mfss%3D
+  <script type="text/javascript">
+    var HttpClient = function() {
+    this.get = function(aUrl, aCallback) {
+        var anHttpRequest = new XMLHttpRequest();
+        anHttpRequest.onreadystatechange = function() { 
+            if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
+                aCallback(anHttpRequest.responseText);
+        }
 
-      <script>
-        // custom transformation: scale header's title
-        var title = document.querySelector('.title');
-        addEventListener('paper-header-transform', function(e) {
-          var d = e.detail;
-          var m = d.height - d.condensedHeight;
-          var scale = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);
-          Polymer.Base.transform('scale(' + scale + ') translateZ(0)', title);
-        });
-      </script>
-	  <div class="container">
+        anHttpRequest.open( "GET", aUrl, true );            
+        anHttpRequest.send( null );
+    }
+    }
+    aClient = new HttpClient();
+    aClient.get('http://webservices.amazon.com/onca/xml?AWSAccessKeyId=AKIAJ7BNJRY5N7DIYV6A&AssociateTag=grovot-20&IdType=ASIN&ItemId=B00LPQUWPG&Operation=ItemLookup&ResponseGroup=Images%2COffers&Service=AWSECommerceService&Timestamp=2016-07-17T21%3A01%3A01.000Z&Signature=S%2FqBdJlxMoZVEA9IffMIkHyeku%2FhC9MM6CwQr57Mfss%3D', function(response) {
+        // do something with response
+    });
+  </script>
+
     <h2>Safety</h2>
-    <h3>First-Aid Kit</h3>
-    <p>Just something basic can be well appreciated if you happen to hurt yourself.</p>
-    <h3>Emergency Contact</h3>
-    <p>Let someone know where to look for you in case you think you could be stranded somehow.</p>
-    <h3>Respirator</h3>
-    <p>Some are more paranoid than others about this.</p>
-    <h3>Oxygen Meter</h3>
+    <h3>First-Aid</h3>
+    <p>Just something basic can be well appreciated if you happen to hurt yourself.<br>https://www.amazon.com/Small-First-Aid-Kit-Piece/dp/B00LPQUWPG/</p>
+    <h3>Respirator / Gas + Oxygen Detector</h3>
+    <p>Some are more paranoid than others about this.<br>https://www.amazon.com/3M-8511-Particulate-Respirator-10-Pack/dp/B0002YKBV2<br>look into what airborne contaminants are present and what types of filters are effective<br>https://www.amazon.com/General-Tools-PNG2000A-Natural-Detector/dp/B001KZH796</p>
     <p>There are other ways to know if the air has enough oxygen though. Try to light a flame, or see if the air is stale.</p>
-    <h3>Sustenance</h3>
-    <p>You might wish you had more food or water, but not if you read this.</p>
-    <h2>Protocol</h2>
     <h3>Friends</h3>
     <p>They're not only for company; it's a lot safer to have atleast two other people with you if one gets hurt, one can leave for help while one stays with the wounded.</p>
-    <h3>Footwear</h3>
+    <p>Let someone know where to look for you in case you think you could be stranded somehow.</p>
+    <h3>Shoes/Gloves</h3>
     <p>Make sure to protect yourself from the ground, these can also keep your feet dry if they have to. Extra socks can come in handy if your primaries get soaked. I don't think there is any health dangers with walking through nasty water, but I'm not sure, you could try to wear crocs or something too instead of rain boots.</p>
     <p>rain boots, fivefinger shoes, crocs</p>
-    <h3>Gloves</h3>
     <p>these just come in handy and protect you</p>
     <p>jacket, gloves</p>
     <h3>Luminescence</h3>
@@ -152,9 +149,19 @@
     <p>all the shit we found over the years like cats and bats</p>
     <h2>Grotto Gear</h2>
   </div>
-		</article>
-	  </paper-scroll-header-panel>
-	</paper-drawer-panel>
+    </article>
+  </paper-scroll-header-panel>
+</paper-drawer-panel>
+<script>
+  // custom transformation: scale header's title
+  var title = document.querySelector('.title');
+  addEventListener('paper-header-transform', function(e) {
+    var d = e.detail;
+    var m = d.height - d.condensedHeight;
+    var scale = Math.max(0.75, (m - d.y) / (m / 0.25)  + 0.75);
+    Polymer.Base.transform('scale(' + scale + ') translateZ(0)', title);
+  });
+</script>
 	<!--<div class="flt--left">
   <a id="about-a" class="btn--link" href="/about">About</a>
   <a id="contact-a" class="btn--link" href="/contact">Contact</a>
