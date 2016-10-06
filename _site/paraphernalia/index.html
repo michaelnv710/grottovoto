@@ -89,66 +89,215 @@
       <h1 class="bottom title">Paraphernalia</h1>
     </paper-toolbar>
     <article class="container">
-        <div class="container">
-  http://webservices.amazon.com/onca/xml?AWSAccessKeyId=AKIAJ7BNJRY5N7DIYV6A&AssociateTag=grovot-20&IdType=ASIN&ItemId=B00LPQUWPG&Operation=ItemLookup&ResponseGroup=Images%2COffers&Service=AWSECommerceService&Timestamp=2016-07-17T21%3A01%3A01.000Z&Signature=S%2FqBdJlxMoZVEA9IffMIkHyeku%2FhC9MM6CwQr57Mfss%3D
-  <script type="text/javascript">
-    var HttpClient = function() {
-    this.get = function(aUrl, aCallback) {
-        var anHttpRequest = new XMLHttpRequest();
-        anHttpRequest.onreadystatechange = function() { 
-            if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
-                aCallback(anHttpRequest.responseText);
-        }
-
-        anHttpRequest.open( "GET", aUrl, true );            
-        anHttpRequest.send( null );
-    }
-    }
-    aClient = new HttpClient();
-    aClient.get('http://webservices.amazon.com/onca/xml?AWSAccessKeyId=AKIAJ7BNJRY5N7DIYV6A&AssociateTag=grovot-20&IdType=ASIN&ItemId=B00LPQUWPG&Operation=ItemLookup&ResponseGroup=Images%2COffers&Service=AWSECommerceService&Timestamp=2016-07-17T21%3A01%3A01.000Z&Signature=S%2FqBdJlxMoZVEA9IffMIkHyeku%2FhC9MM6CwQr57Mfss%3D', function(response) {
-        // do something with response
-    });
-  </script>
-
-    <h2>Safety</h2>
-    <h3>First-Aid</h3>
-    <p>Just something basic can be well appreciated if you happen to hurt yourself.<br>https://www.amazon.com/Small-First-Aid-Kit-Piece/dp/B00LPQUWPG/</p>
-    <h3>Respirator / Gas + Oxygen Detector</h3>
-    <p>Some are more paranoid than others about this.<br>https://www.amazon.com/3M-8511-Particulate-Respirator-10-Pack/dp/B0002YKBV2<br>look into what airborne contaminants are present and what types of filters are effective<br>https://www.amazon.com/General-Tools-PNG2000A-Natural-Detector/dp/B001KZH796</p>
-    <p>There are other ways to know if the air has enough oxygen though. Try to light a flame, or see if the air is stale.</p>
-    <h3>Friends</h3>
-    <p>They're not only for company; it's a lot safer to have atleast two other people with you if one gets hurt, one can leave for help while one stays with the wounded.</p>
-    <p>Let someone know where to look for you in case you think you could be stranded somehow.</p>
-    <h3>Shoes/Gloves</h3>
-    <p>Make sure to protect yourself from the ground, these can also keep your feet dry if they have to. Extra socks can come in handy if your primaries get soaked. I don't think there is any health dangers with walking through nasty water, but I'm not sure, you could try to wear crocs or something too instead of rain boots.</p>
-    <p>rain boots, fivefinger shoes, crocs</p>
-    <p>these just come in handy and protect you</p>
-    <p>jacket, gloves</p>
-    <h3>Luminescence</h3>
-    <p>I pretty much always have a flashlight. Even if you're not going underground, most buildings have basements and closets in which it comes in handy.</p>
-    <h2>Documentation</h2>
-    <h3>Camera</h3>
-    <p>If you want to be all camera enthusiastic, go for it. Otherwise your phone can usually suffice, or a cheap action camera.</p>
-    <h3>Drone</h3>
-    <h3>More Luminescence</h3>
-    <p>Double down on the electrons if you want a halfway decent shot in any classic dark underground environment.</p>
-    <h3></h3>
-    <h2>Art</h2>
-
-    <h3>Distance Measurement</h3>
-    <p>A laser rangefinder works, or a tape measure, or hands.</p>
-    <h3>Notes</h3>
-    <p>For drawing maps of the place, I like this shit:</p>
-    <h3><s>Paint</s></h3>
-    <p>I mean, publicly I have to say don't do it. But if you're good at it...</p>
-    <h3>Steel Wool</h3>
-    <p>You light in on fire and spin it around, while your camera is exposed.</p>
-    <h3>Lasers</h3>
-    <p>They can look pretty cool.</p>
-    <h2>Artifacts/Encounters</h2>
-    <p>all the shit we found over the years like cats and bats</p>
-    <h2>Grotto Gear</h2>
-  </div>
+      <h2>Safety</h2>
+<div class="paraphernalia">
+    <paper-card image="../resources/images/paraphernalia/first-aid.jpg">
+        <div class="card-content">
+            <h3>First-Aid Kit</h3>
+        </div>
+        <div class="card-actions">
+            <a href="https://www.amazon.com/Small-First-Aid-Kit-Piece/dp/B00LPQUWPG" target="_blank">
+                <paper-button>Amazon</paper-button>
+            </a>
+        </div>
+    </paper-card>
+</div>
+<div class="paraphernalia">
+    <paper-card image="../resources/images/paraphernalia/respirator.jpg">
+        <div class="card-content">
+            <h3>Respirator</h3>
+        </div>
+        <div class="card-actions">
+            <a href="https://www.amazon.com/3M-8511-Particulate-Respirator-10-Pack/dp/B0002YKBV2" target="_blank">
+                <paper-button>Amazon</paper-button>
+            </a>
+        </div>
+    </paper-card>
+</div>
+<div class="paraphernalia">
+    <paper-card image="../resources/images/paraphernalia/gas-pen.jpg">
+        <div class="card-content">
+            <h3>Gas Detector</h3>
+        </div>
+        <div class="card-actions">
+            <a href="https://www.amazon.com/General-Tools-PNG2000A-Natural-Detector/dp/B001KZH796" target="_blank">
+                <paper-button>Amazon</paper-button>
+            </a>
+        </div>
+    </paper-card>
+</div>
+<div class="paraphernalia">
+    <paper-card image="../resources/images/paraphernalia/friends.jpg">
+        <div class="card-content">
+            <h3>Friends</h3>
+        </div>
+        <div class="card-actions">
+            <a href="https://www.amazon.com/Friends-Complete-Jennifer-Aniston/dp/B00B1LN8WY/" target="_blank">
+                <paper-button>Amazon</paper-button>
+            </a>
+        </div>
+    </paper-card>
+</div>
+<div class="paraphernalia">
+    <paper-card image="../resources/images/paraphernalia/vibram.jpg">
+        <div class="card-content">
+            <h3>FiveFingers</h3>
+        </div>
+        <div class="card-actions">
+            <a href="https://www.amazon.com/Vibram-FiveFingers-Trek-Ascent-Caramel/dp/B00KR4P5MW" target="_blank">
+                <paper-button>Amazon</paper-button>
+            </a>
+        </div>
+    </paper-card>
+</div>
+<h3>Shoes/Gloves</h3>
+<div class="paraphernalia">
+    <paper-card image="../resources/images/paraphernalia/first-aid.jpg">
+        <div class="card-content">
+            <h3>First-Aid Kit</h3>
+        </div>
+        <div class="card-actions">
+            <a href="https://www.amazon.com/Small-First-Aid-Kit-Piece/dp/B00LPQUWPG" target="_blank">
+                <paper-button>Amazon</paper-button>
+            </a>
+        </div>
+    </paper-card>
+</div>
+<p>Make sure to protect yourself from the ground, these can also keep your feet dry if they have to. Extra socks can come in handy if your primaries get soaked. I don't think there is any health dangers with walking through nasty water, but I'm not sure, you could try to wear crocs or something too instead of rain boots.</p>
+<p>rain boots, fivefinger shoes, crocs</p>
+<div class="paraphernalia">
+    <paper-card image="../resources/images/paraphernalia/first-aid.jpg">
+        <div class="card-content">
+            <h3>First-Aid Kit</h3>
+        </div>
+        <div class="card-actions">
+            <a href="https://www.amazon.com/Small-First-Aid-Kit-Piece/dp/B00LPQUWPG" target="_blank">
+                <paper-button>Amazon</paper-button>
+            </a>
+        </div>
+    </paper-card>
+</div>
+<p>these just come in handy and protect you</p>
+<p>jacket, gloves</p>
+<div class="paraphernalia">
+    <paper-card image="../resources/images/paraphernalia/first-aid.jpg">
+        <div class="card-content">
+            <h3>First-Aid Kit</h3>
+        </div>
+        <div class="card-actions">
+            <a href="https://www.amazon.com/Small-First-Aid-Kit-Piece/dp/B00LPQUWPG" target="_blank">
+                <paper-button>Amazon</paper-button>
+            </a>
+        </div>
+    </paper-card>
+</div>
+<h3>Luminescence</h3>
+<div class="paraphernalia">
+    <paper-card image="../resources/images/paraphernalia/first-aid.jpg">
+        <div class="card-content">
+            <h3>First-Aid Kit</h3>
+        </div>
+        <div class="card-actions">
+            <a href="https://www.amazon.com/Small-First-Aid-Kit-Piece/dp/B00LPQUWPG" target="_blank">
+                <paper-button>Amazon</paper-button>
+            </a>
+        </div>
+    </paper-card>
+</div>
+<p>I pretty much always have a flashlight. Even if you're not going underground, most buildings have basements and closets in which it comes in handy.</p>
+<h2>Documentation</h2>
+<h3>Camera</h3>
+<div class="paraphernalia">
+    <paper-card image="../resources/images/paraphernalia/first-aid.jpg">
+        <div class="card-content">
+            <h3>First-Aid Kit</h3>
+        </div>
+        <div class="card-actions">
+            <a href="https://www.amazon.com/Small-First-Aid-Kit-Piece/dp/B00LPQUWPG" target="_blank">
+                <paper-button>Amazon</paper-button>
+            </a>
+        </div>
+    </paper-card>
+</div>
+<p>If you want to be all camera enthusiastic, go for it. Otherwise your phone can usually suffice, or a cheap action camera.</p>
+<h3>Drone</h3>
+<div class="paraphernalia">
+    <paper-card image="../resources/images/paraphernalia/first-aid.jpg">
+        <div class="card-content">
+            <h3>First-Aid Kit</h3>
+        </div>
+        <div class="card-actions">
+            <a href="https://www.amazon.com/Small-First-Aid-Kit-Piece/dp/B00LPQUWPG" target="_blank">
+                <paper-button>Amazon</paper-button>
+            </a>
+        </div>
+    </paper-card>
+</div>
+<h3>More Luminescence</h3>
+<p>Double down on the electrons if you want a halfway decent shot in any classic dark underground environment.</p>
+<h3></h3>
+<h2>Art</h2>
+<h3>Distance Measurement</h3>
+<div class="paraphernalia">
+    <paper-card image="../resources/images/paraphernalia/first-aid.jpg">
+        <div class="card-content">
+            <h3>First-Aid Kit</h3>
+        </div>
+        <div class="card-actions">
+            <a href="https://www.amazon.com/Small-First-Aid-Kit-Piece/dp/B00LPQUWPG" target="_blank">
+                <paper-button>Amazon</paper-button>
+            </a>
+        </div>
+    </paper-card>
+</div>
+<p>A laser rangefinder works, or a tape measure, or hands.</p>
+<h3>Notes</h3>
+<div class="paraphernalia">
+    <paper-card image="../resources/images/paraphernalia/first-aid.jpg">
+        <div class="card-content">
+            <h3>First-Aid Kit</h3>
+        </div>
+        <div class="card-actions">
+            <a href="https://www.amazon.com/Small-First-Aid-Kit-Piece/dp/B00LPQUWPG" target="_blank">
+                <paper-button>Amazon</paper-button>
+            </a>
+        </div>
+    </paper-card>
+</div>
+<p>For drawing maps of the place, I like this shit:</p>
+<h3><s>Paint</s></h3>
+<p>I mean, publicly I have to say don't do it. But if you're good at it...</p>
+<h3>Steel Wool</h3>
+<div class="paraphernalia">
+    <paper-card image="../resources/images/paraphernalia/first-aid.jpg">
+        <div class="card-content">
+            <h3>First-Aid Kit</h3>
+        </div>
+        <div class="card-actions">
+            <a href="https://www.amazon.com/Small-First-Aid-Kit-Piece/dp/B00LPQUWPG" target="_blank">
+                <paper-button>Amazon</paper-button>
+            </a>
+        </div>
+    </paper-card>
+</div>
+<p>You light in on fire and spin it around, while your camera is exposed.</p>
+<h3>Lasers</h3>
+<div class="paraphernalia">
+    <paper-card image="../resources/images/paraphernalia/first-aid.jpg">
+        <div class="card-content">
+            <h3>First-Aid Kit</h3>
+        </div>
+        <div class="card-actions">
+            <a href="https://www.amazon.com/Small-First-Aid-Kit-Piece/dp/B00LPQUWPG" target="_blank">
+                <paper-button>Amazon</paper-button>
+            </a>
+        </div>
+    </paper-card>
+</div>
+<p>They can look pretty cool.</p>
+<h2>Artifacts/Encounters</h2>
+<p>all the shit we found over the years like cats and bats</p>
+<h2>Grotto Gear</h2>
     </article>
   </paper-scroll-header-panel>
 </paper-drawer-panel>

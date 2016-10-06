@@ -13,6 +13,39 @@ paper-card {
 	background-color: black !important;
 	color: #ffffff !important;
 }
+
+@media (min-width: 600px) {
+	.paraphernalia {
+		box-sizing: border-box;
+		width: 50%;
+	}
+}
+@media (min-width: 840px) {
+	.paraphernalia {
+		box-sizing: border-box;
+		width: 33.33%;
+	}
+}
+@media (min-width: 1280px) {
+	.paraphernalia {
+		box-sizing: border-box;
+		width: 25%;
+	}
+}
+@media (min-width: 1680px) {
+	.paraphernalia {
+		box-sizing: border-box;
+		width: 20%;
+	}
+}
+#Paraphernalia .container {
+	margin: 8px;
+	padding: 0 !important;
+}
+.paraphernalia {
+	padding: 8px;
+	float: left;
+}
 .flex {
     @apply(--layout-horizontal);
     @apply(--layout-wrap);
